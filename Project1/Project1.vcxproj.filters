@@ -36,5 +36,8 @@
     <ClCompile Include="f6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="f7.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

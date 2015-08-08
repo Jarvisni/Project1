@@ -25,6 +25,7 @@ void cs()
 	int f4();
 	int f5();
 	int f6();
+	int f7();
 swindex2:printf("-------------------\n");
 	printf("--which function?--\n");
 	printf("-------------------\nf");
@@ -40,6 +41,7 @@ swindex2:printf("-------------------\n");
 	case 4:f4(); break;
 	case 5:f5(); break;
 	case 6:f6(); break;
+	case 7:f7(); break;
 	default:system("CLS"); printf("error\n"); goto swindex2;
 	}
 	printf("-----------------------------------------------\nf%d‘À––Ω· ¯\n1 for again,2 for exit\n", ch);
