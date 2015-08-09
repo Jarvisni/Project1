@@ -17,17 +17,17 @@ swf7:printf("1.摄氏度转华氏度\n2.华氏度转摄氏度\nYour choice:");
 }
 void s2h()
 {
-	int ch, a;
+	float ch, a;
 	printf("输入要转换的摄氏度：");
-	scanf_s("%d",&ch);
+	scanf_s("%f",&ch);
 	a = ch * 9 / 5 + 32;
-	printf("%d摄氏度=%d华氏度", ch, a);
+	printf("%10.1f摄氏度=%10.1f华氏度", ch, a);
 }
 void h2s()
 {
-	int ch, a;
+	float ch, a;
 	printf("输入要转换的华氏度：");
-	scanf_s("%d", &ch);
+	scanf_s("%f", &ch);
 	a = (ch - 32) * 5 / 9;
-	printf("%d华氏度=%d摄氏度", ch, a);
+	printf("%10.1f华氏度=%10.1f摄氏度", ch, a);
 }
